@@ -1,14 +1,14 @@
-DIR1=/home/keertmak/Documents/makefiles3/src/sum
-DIR2=/home/keertmak/Documents/makefiles3/src/sub
-DIR3=/home/keertmak/Documents/makefiles3/src/mul
-DIR4=/home/keertmak/Documents/makefiles3/src/div
+DIR1=/home/bejjaman/Downloads/manu/makefiles3/src/sum
+DIR2=/home/bejjaman/Downloads/manu/makefiles3/src/sub
+DIR3=/home/bejjaman/Downloads/manu/makefiles3/src/mul
+DIR4=/home/bejjaman/Downloads/manu/makefiles3/src/div
 MAIN=/home/keertmak/Documents/makefiles3/src
-BIN=/home/keertmak/Documents/makefiles3/bin
-HEAD1=/home/keertmak/Documents/makefiles3/include/head1
-HEAD2=/home/keertmak/Documents/makefiles3/include/head2
-HEAD3=/home/keertmak/Documents/makefiles3/include/head3
-HEAD4=/home/keertmak/Documents/makefiles3/include/head4
-CURDIR=/home/keertmak/Documents/makefiles3
+BIN=/home/bejjaman/Downloads/manu/makefiles3/bin
+HEAD1=/home/bejjaman/Downloads/manu/makefiles3/include/head1
+HEAD2=/home/bejjaman/Downloads/manu/makefiles3/include/head2
+HEAD3=/home/bejjaman/Downloads/manu/makefiles3/include/head3
+HEAD4=/home/bejjaman/Downloads/manu/makefiles3/include/head4
+CURDIR=/home/bejjaman/Downloads/manu/makefiles3
 
 all:	 
 	gcc -c $(DIR1)/*.c -I$(HEAD1)
